@@ -4,7 +4,7 @@ description: 记录探索，连接知识，让想法慢慢长成作品。
 cssclasses:
   - home-page
 ---
-<div class="garden-hero"><span class="eyebrow">PERSONAL SPACE / 持续生长中</span><h1>把学到的知识，<br>变成自己的作品。</h1><p>你好，欢迎来到我的个人空间。这里收集学习笔记、项目实践与阶段思考，也记录从好奇到行动的过程。</p><div class="hero-links"><a class="internal primary" href="./notes">探索知识库 ↗</a><a class="internal" href="./about">认识我 →</a></div><div class="hero-foot">学习 · 实践 · 记录 · 分享</div></div>
+<div class="garden-hero"><div class="hero-copy"><span class="eyebrow">SUROSY'S LITTLE UNIVERSE</span><div class="live-badge"><i></i> 保持好奇，持续生长</div><h1>你好，我是 <em>Surosy</em>。<br>欢迎来到我的<br><span class="gradient-text">灵感小宇宙。</span></h1><p>把零散的知识连接起来，把脑海里的想法做出来。这里是我的学习手记、作品收藏，也是慢慢成长的轨迹。</p><div class="hero-links"><a class="internal primary" href="./notes">探索知识花园 ↗</a><a class="internal secondary-link" href="./projects">看看我的作品 →</a></div><div class="hero-foot">LEARN SOMETHING. MAKE SOMETHING.</div></div><div class="profile-orbit"><span class="orbit-spark spark-one">✦</span><span class="orbit-spark spark-two">✧</span><span class="orbit-label label-one">一颗好奇心</span><span class="orbit-label label-two">一点点创造力</span><div class="avatar-ring"><img src="./assets/avatar.png" alt="Surosy 的 GitHub 头像" width="180" height="180" class="profile-avatar"></div><div class="profile-name">Surosy <span>✦</span></div><p class="profile-caption">学习 / 记录 / 创造</p><details class="profile-details"><summary>打开我的小卡片 <span>＋</span></summary><p>正在搭建自己的知识花园。<br>欢迎探索笔记，也欢迎见证想法慢慢长成作品。</p><a class="internal" href="./about">更多关于我 →</a></details></div></div>
 
 ## 从这里开始
 
