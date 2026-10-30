@@ -1,5 +1,5 @@
 configuration:
-  pageTitle: 知行之间
+  pageTitle: Surosy
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -279,3 +279,4 @@ layout:
         right: []
     canvas: {}
     bases: {}
+
