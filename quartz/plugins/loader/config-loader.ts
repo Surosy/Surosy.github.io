@@ -1,3 +1,4 @@
+import FontSize from "../../components/FontSize"
 import fs from "fs"
 import path from "path"
 import YAML from "yaml"
@@ -717,6 +718,10 @@ export async function loadQuartzLayout(layoutOverrides?: {
     }
   }
 
+  componentRegistry.register("font-size-picker", () => FontSize, "local")
+  for (const pageLayout of [mergedDefaults, ...Object.values(mergedByPageType)]) {
+    pageLayout.beforeBody = [FontSize, ...(pageLayout.beforeBody ?? [])]
+  }
   return { defaults: mergedDefaults, byPageType: mergedByPageType }
 }
 
@@ -974,3 +979,4 @@ function applyConditionWrapper(component: QuartzComponent, conditionName: string
     condition: predicate,
   }) as QuartzComponent
 }
+
